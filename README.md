@@ -1,3 +1,27 @@
+Para utilizar esse projeto é necessário baixa-lo.
+## Preparando a máquina
+
+Após baixa-lo é necessário na linha de comando escrever "composer install" e assim que terminar de baixar as dependencias roda o comando "npm install " isso ira baixar a dependencias do js e quando terminar de baixar escreva "npm run dev".
+
+Em seguida você irá na raiz da pasta database e criará um arquivo "database.sqlite" e em seguida irá em seu arquivo .env para mudar as seguintes configurações.
+
+- DB_CONNECTION=sqlite
+- // DB_HOST=127.0.0.1
+- // DB_PORT=3306
+- // DB_DATABASE=uotz
+- // DB_USERNAME=root
+- // DB_PASSWORD=
+
+// = comentar.
+
+
+Após comentar na linha de comando você precisa escreve "php artisan migrate" isso irá criar as tabelas no banco e em seguida "php artisan db:seed" isso irá inserir dados na tabela automaticamente.
+
+Com tudo configurado basta escrever localhost:8000/vagas.
+
+- login = diego@uotz.com
+- senha = diego123.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
