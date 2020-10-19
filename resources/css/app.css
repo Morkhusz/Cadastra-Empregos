@@ -1,0 +1,182 @@
+.container-sm {
+    width: 960px;
+}
+
+body {
+    background: #FAF9F9;
+    color: #6E6E6E;
+    font-weight: bold;
+}
+
+.texto-preto {
+    color: black;
+}
+
+.texo {
+    color: #5e5d5d;
+}
+
+#mensagemNome, #mensagemPais,#mensagemCidade, #mensagemEstado,
+#mensagemDepartamento, #mensagemTipo, #mensagemDescricao,
+#mensagemSobrenome,#mensagemEmail, #mensagemTelefone,
+#mensagemMotivo, #mensagemConhece {
+    font-size: 14px;
+    color: red;
+}
+
+/* inicio pag vagas */
+.cabecalho {
+    background: white;
+}
+
+.cabecalho-detalhes {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #D8D8D8;
+}
+
+.cabecalho-p {
+    color: black;
+    font-size: 15px;
+    align-content: justify;
+}
+.color-p {
+    color: red;
+    font-weight: bold;
+}
+
+.slogan {
+    width: 60px;
+    height: 59px;
+}
+
+.navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px #D8D8D8;
+}
+
+.lista {
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px 3px  #D8D8D8;
+}
+
+.bottao:hover {
+    background: #ffff;
+}
+.nav-link-a {
+    color: #FE2E2E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.nav-link-a:hover {
+    color: #FE2E2E;
+    text-decoration: none;
+}
+
+.nav-link-a:active {
+    color: #F78181;
+    border: 1px solid  #FE2E2E;
+}
+
+.descricao {
+    display: inline;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.edt {
+    display: inline;
+}
+.a-vaga {
+    color: #FE2E2E;
+}
+
+.a-vaga:hover {
+    color: #FE2E2E;
+}
+/* pag vagas */
+
+/* pag detalhes */
+
+.conteudo-p-detalhes {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    align-content: center;
+}
+
+.div-link {
+    border-bottom: 6px solid red;
+    margin-right: 20px;
+}
+
+.a-detalhes {
+    color: #7e7e7e;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a-detalhes:link {
+    text-decoration: none;
+}
+
+.a-link:active {
+    color: red;
+}
+
+.a-detalhes:hover {
+    color: red;
+}
+
+.btt-cor {
+    background: #FF0040;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.file {
+    border: 1px dotted black;
+    height: 100px;
+    background: white;
+    border-color: #D8D8D8;
+}
+
+.file-label {
+    margin-left: 210px;
+
+}
+
+/* fim detalhe */
+
+/* pag nova vaga */
+
+.campo {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.obrigatorio {
+    color: red;
+}
+
+/* fim pag nova vaga */
+.footer {
+    background: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 20px 20px 20px 20px #D8D8D8;
+}
+
+/* login */
+
+.login {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 2px 2px #D8D8D8;
+}
+
+/* fim login */
